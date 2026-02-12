@@ -1,0 +1,41 @@
+baseURL = "https://idigitstudio.github.io/"
+languageCode = "zh-tw"
+title = "My Hugo Site"
+theme = "hugo-clarity"
+
+# 啟用 GitInfo
+enableGitInfo = true
+
+# 輸出設定
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# 分類設定
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = "series"
+
+# 模組設定（如果使用 git submodule）
+[module]
+  [[module.mounts]]
+    source = "content"
+    target = "content"
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+  [[module.mounts]]
+    source = "layouts"
+    target = "layouts"
+  [[module.mounts]]
+    source = "data"
+    target = "data"
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "i18n"
+    target = "i18n"
+  [[module.mounts]]
+    source = "archetypes"
+    target = "archetypes"
