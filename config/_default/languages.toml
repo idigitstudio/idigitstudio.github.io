@@ -1,11 +1,17 @@
 [en]
-  title = "Clarity"
+  title = "My Digital Studio"
   LanguageName = "English"
   weight = 1
+  [en.params]
+    introDescription = "Technologist, designer, and innovator focused on building high-quality digital experiences."
+    read_more = "Read more"
 
-[pt]
-  title = "Claridade" # just for the sake of showing this is possible
-  LanguageName = "Português"
+[zh-tw]
+  title = "我的數位工作室"
+  LanguageName = "繁體中文"
   weight = 2
+  [zh-tw.params]
+    introDescription = "熱愛技術、設計與創新的開發者。專注於打造高品質的數位體驗。"
+    read_more = "閱讀更多"
 
   # tip: assign the default language the lowest Weight

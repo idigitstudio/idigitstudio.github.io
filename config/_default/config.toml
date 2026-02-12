@@ -1,6 +1,6 @@
 baseURL = "https://idigitstudio.github.io/"
 languageCode = "zh-tw"
-title = "My Hugo Site"
+title = "My Digital Studio"
 theme = "hugo-clarity"
 
 # 啟用 GitInfo
